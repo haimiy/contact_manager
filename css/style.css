@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+img{
+	height: 105px;
+	width: 125px;
+	margin-bottom: 12px;
+}
+.container-fluid{
+	margin-top: 100px;
+}
