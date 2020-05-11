@@ -18,7 +18,7 @@
 		<br>
 	</div>
 	<div class="form-group">
-		<input type="text" class="form-control form-control-lg"  name="username" placeholder="Username" required>
+		<input type="email" class="form-control form-control-lg"  name="email" placeholder="Enter your email" required>
 	</div>
 	<div class="form-group">
 		<input type="password" class="form-control form-control-lg" name="password" placeholder="Password" required>
