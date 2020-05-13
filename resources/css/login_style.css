@@ -1,7 +1,4 @@
-body{
-	margin: 0;
-	padding: 0;
-}
+
 img{
 	height: 105px;
 	width: 125px;
@@ -10,3 +7,4 @@ img{
 .container-fluid{
 	margin-top: 100px;
 }
+
