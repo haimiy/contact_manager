@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../resources/css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="d-flex" id="wrapper">
@@ -14,7 +15,7 @@
     <div class=" border-right" id="sidebar-wrapper" style="background-color: #bebebc;">
 	    <div class="sidebar-heading"><h2 style="text-align: center;">Admin</h2></div>
 	    <div class="list-group list-group-flush">
-	        <a href="#" class="list-group-item list-group-item-action active">Dashboard</a>
+	        <a href="#" class="list-group-item list-group-item-action bg-secondary text-white">Dashboard</a>
 	        <a href="#" class="list-group-item list-group-item-action" style="background-color: #bebebc">Profile</a>
 	    </div>
   	</div>
@@ -42,7 +43,7 @@
     <hr><br><br>
 
 <div class="add-button">
-	<button type="button" class="btn btn-secondary"><a href="#">Add new User</a></button>
+	<button type="button" class="btn btn-primary"><a href="#">Add new User</a></button>
 </div>
 <br>
 <div class="table-responsive">  
@@ -69,7 +70,20 @@
                     <td>'.$row["id"].'</td>  
                     <td>'.$row["f_name"].'</td>  
                     <td>'.$row["l_name"].'</td>  
-                    <td>'.$row["email"].'</td>    
+                    <td>'.$row["email"].'</td>
+                    <td>
+                    <ul class="list-unstyled">
+                    	<li>
+                    	<a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    	<span>
+                    	<a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                    	</span>
+                    	<!-- <span>
+                    	<i class="fa fa-lock" aria-hidden="true">
+                    	</span></i> -->
+                    </li>
+                    </ul>
+                    </td>    
                     </tr>  
                     ';  
             }  
@@ -81,9 +95,9 @@
     </div>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
 	<script src="../resources/bootstrap/js/bootstrap.min.js"></script>
 	<script src="../resources/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="../resources/jquery/jquery.min.js"></script>
