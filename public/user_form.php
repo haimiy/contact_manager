@@ -35,62 +35,13 @@
     <div class="container-fluid">
     <nav aria-label="breadcrumb">
   		<ul class="breadcrumb list-unstyled" style="background-color: #fff;">
-    		<li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-    		<li class="breadcrumb-item active" aria-current="page">User view</li>
+    		<!-- <li class="breadcrumb-item"><a href="#">Dashboard</a></li> -->
+    		<li class="breadcrumb-item active" aria-current="page">Add User</li>
   		</ul>
 	</nav>
     </div>
     <hr><br><br>
 
-<div class="add-button">
-	<button type="button" class="btn btn-primary"><a href="User_form.php">Add new User</a></button>
-</div>
-<br>
-<div class="table-responsive">  
-    <table class="table table-striped table-bordered">  
-	    <thead>  
-	        <tr>  
-	            <th>id</th>  
-	            <th>First name</th>  
-	            <th>Last name</th>  
-	            <th>Email</th>
-	            <th>Action</th>    
-	        </tr>  
-	    </thead>  
-        <?php  
-        	include "../db/connection.php";
-
-        	$sql = "SELECT id,f_name,l_name,email from users where f_name ='Khairat'and l_name='Issa'and email='Khairat096@gmail.com'";
-        	$result = mysqli_query($conn,$sql);
-
-            while($row = mysqli_fetch_array($result))  
-            {  
-                echo '  
-                    <tr>  
-                    <td>'.$row["id"].'</td>  
-                    <td>'.$row["f_name"].'</td>  
-                    <td>'.$row["l_name"].'</td>  
-                    <td>'.$row["email"].'</td>
-                    <td>
-                    <ul class="list-unstyled">
-                    	<li>
-                    	<a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                    	<span>
-                    	<a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
-                    	</span>
-                    	<!-- <span>
-                    	<i class="fa fa-lock" aria-hidden="true">
-                    	</span></i> -->
-                    </li>
-                    </ul>
-                    </td>    
-                    </tr>  
-                    ';  
-            }  
-        ?>  
-    </table>  
-    </div>  
-    </div>
     <!-- page-content-->
     </div>
 

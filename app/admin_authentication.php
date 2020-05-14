@@ -3,8 +3,8 @@
 
 	if($_SERVER["REQUEST_METHOD"] == "POST") {
 
-		$email = $_POST['email'];
-	 	$password = $_POST['password']; 
+		$email = mysqli_real_escape_string($conn,$_POST['email']);
+	 	$password = mysqli_real_escape_string($conn,$_POST['password']); 
 
 	    $sql = "SELECT email,password from users where email = '$email' and password = SHA('$password')";
 		$result = mysqli_query($conn,$sql);
@@ -17,5 +17,3 @@
 		  	}		
 	
 	}
-
-	?>

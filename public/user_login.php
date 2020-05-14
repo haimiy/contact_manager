@@ -15,10 +15,10 @@
 	<form method="POST" action="../app/admin_authentication.php">
 	<img src="../resources/img/images.png">
 	<div>
-		<h2>Admin Login</h2>
+		<h2>User Login</h2>
 		<br>
 	</div>
-	<div class="form-group input-group">
+	<<div class="form-group input-group">
 		<div class="input-group-prepend">
 			<span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		</div>
@@ -32,6 +32,9 @@
 	</div>
 	<div class="form-group">
 	<button type="submit" class="btn btn-primary btn-block" name="Login">Login</button>
+	</div>
+	<div>
+		<strong>Not registered?</strong><a href="auto_user_form.php">Create Accounts</a>
 	</div>
 	</form>
 	</div>

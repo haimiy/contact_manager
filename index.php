@@ -40,7 +40,7 @@
 		<h3><a href="public/admin_login.php">Admin</a></h3></li>
 	</div>
 	<div class="d-inline-block p-4 bg-success text-white">
-		<h3><a href="#">User</a></h3>
+		<h3><a href="public/user_login.php">User</a></h3>
 	</div>
 	</div>
 	
