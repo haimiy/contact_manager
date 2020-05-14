@@ -60,7 +60,7 @@
         <?php  
         	include "../db/connection.php";
 
-        	$sql = "SELECT id,f_name,l_name,email from users where f_name ='Khairat'and l_name='Issa'and email='Khairat096@gmail.com'";
+        	$sql = "SELECT id,f_name,l_name,email from users where f_name ='f_name'and l_name='l_name'and email='email'";
         	$result = mysqli_query($conn,$sql);
 
             while($row = mysqli_fetch_array($result))  

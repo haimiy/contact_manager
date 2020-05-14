@@ -18,21 +18,21 @@
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 </div>
-        <input type="text" name="f_name" class="form-control" placeholder="First name">
+        <input type="text" name="f_name" class="form-control" placeholder="First name" required>
     </div> 
 
     <div class="form-group input-group">
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 </div>
-        <input type="text" name="l_name" class="form-control" placeholder="Last name">
+        <input type="text" name="l_name" class="form-control" placeholder="Last name" required>
     </div> 
 
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		 </div>
-        <input type="email" name="email" class="form-control" placeholder="Email address">
+        <input type="email" name="email" class="form-control" placeholder="Email address" required>
     </div>
 		<!-- div class="form-group input-group">
     	<div class="input-group-prepend">
@@ -50,18 +50,17 @@
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
 		</div>
-        <input class="form-control" placeholder="Create password" type="password">
+        <input  type="password" name="password" class="form-control" placeholder="Create password" required>
     </div>
 
     <div class="form-group input-group">
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
 		</div>
-        <input class="form-control" placeholder="Repeat password" type="password">
+        <input type="password" name="repeat_password" class="form-control" placeholder="Repeat password" required>
     </div>  
-
     <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+        <button type="submit" name="create_account" class="btn btn-primary btn-block"> Create Account  </button>
     </div>
     <div>
 		<strong>Have an account?</strong><a href="user_login.php"> Log In</a>
