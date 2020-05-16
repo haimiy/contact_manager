@@ -1,3 +1,13 @@
+<?php 
+
+require_once("../../db/connection.php");
+$sql = " SELECT * FROM users ";
+$result = mysqli_query($conn,$sql);
+$count = mysqli_num_rows($result);
+
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,9 +52,18 @@
   		</ul>
 	</nav>
     </div>
-    <hr><br><br>
+    <hr><br>
 
         <!--jaza hapa -->
+      <div class="col-md-6">
+      <button type="button" class="btn btn-primary btn-block">
+        Total User <span class="badge badge-pill badge-light"><?php echo $count; ?></span>
+      </button>
+
+     <!--  <button type="button" class="btn btn-primary btn-block">
+        Deleted User <span class="badge badge-pill badge-light"><?php echo mysqli_affected_rows($conn); ?></span>
+      </button> -->
+      </div>
 
     </div>
     <!-- page-content-->

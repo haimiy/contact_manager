@@ -11,7 +11,7 @@ require "../db/connection.php";
  if (isset($_POST['btn_add'])) {
  	$sql = "INSERT into users(`f_name`,`l_name`,`email`,`password`,`role_id`,`email_verified_at`,`created_at`) VALUES('$f_name','$l_name','$email',SHA('1234'),2,now(),now())" ;
  	$result = mysqli_query($conn,$sql);
- 	echo "pass";
+ 	header("location: ../public/admin/manage_user.php");
  }
 
 

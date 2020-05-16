@@ -6,7 +6,7 @@ if (isset($_GET['DeleteId'])) {
 	
 	$id = $_GET['DeleteId'];
 
-	$sql = "DELETE from users id = '".$id."'";
+	$sql = "DELETE from users WHERE id = '".$id."'";
 
 	$result = mysqli_query($conn,$sql);
 
