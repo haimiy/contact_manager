@@ -4,7 +4,7 @@
 	<title>Create Account</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../resources/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 </head>
 
@@ -13,7 +13,7 @@
 <article class="mx-auto col-4 text-center" style="max-width: 500px;">
 	<h3 class="mt-3 text-center">Create Account</h3>
 	<br>
-	<form method="POST" action="../app/user_authentication.php">
+	<form method="POST" action="../../app/user_authentication.php">
 	<div class="form-group input-group">
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
@@ -70,7 +70,7 @@
 </div>
 
 </div> 
-	<script src="../resources/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../../resources/bootstrap/js/bootstrap.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 </body>
 </html>

@@ -10,10 +10,10 @@
 		$result = mysqli_query($conn,$sql);
 
 		  	if (mysqli_num_rows($result)>0) {
-		  		header("location: ../public/admin_page.php");
+		  		header("location: ../public/admin/admin_page_dashboard.php");
 		  	}
 		  	else{
-		  		header("location: ../public/admin_login.php");
+		  		header("location: ../public/admin/admin_login.php");
 		  	}		
 	
 	}

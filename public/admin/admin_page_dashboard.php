@@ -4,8 +4,8 @@
 	<title>Admin Page</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../resources/css/styles.css">
+	<link rel="stylesheet" href="../../resources/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../resources/css/styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -16,7 +16,9 @@
 	    <div class="sidebar-heading"><h2 style="text-align: center;">Admin</h2></div>
 	    <div class="list-group list-group-flush">
 	        <a href="#" class="list-group-item list-group-item-action bg-secondary text-white">Dashboard</a>
-	        <a href="#" class="list-group-item list-group-item-action" style="background-color: #bebebc">Profile</a>
+          <a href="manage_user.php" class="list-group-item list-group-item-action" style="background-color: #bebebc">User</a>
+	        <a href="admin_profile.php" class="list-group-item list-group-item-action" style="background-color: #bebebc">Profile</a>
+          
 	    </div>
   	</div>
   	<!-- Finish Sidebar -->
@@ -35,13 +37,16 @@
     <div class="container-fluid">
     <nav aria-label="breadcrumb">
   		<ul class="breadcrumb list-unstyled" style="background-color: #fff;">
-    		<!-- <li class="breadcrumb-item"><a href="#">Dashboard</a></li> -->
-    		<li class="breadcrumb-item active" aria-current="page">Add User</li>
+    		<li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+    		<li class="breadcrumb-item active" aria-current="page">User view</li>
   		</ul>
 	</nav>
     </div>
     <hr><br><br>
 
+        <!--jaza hapa -->
+
+    </div>
     <!-- page-content-->
     </div>
 
@@ -49,9 +54,9 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 	<script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
-	<script src="../resources/bootstrap/js/bootstrap.min.js"></script>
-	<script src="../resources/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="../resources/jquery/jquery.min.js"></script>
+	<script src="../../resources/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../../resources/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="../../resources/jquery/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   	
 </html>
