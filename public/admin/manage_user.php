@@ -21,8 +21,8 @@
     <div class=" border-right" id="sidebar-wrapper" style="background-color: #bebebc;">
 	    <div class="sidebar-heading"><h2 style="text-align: center;">Admin</h2></div>
 	    <div class="list-group list-group-flush">
-	        <a href="admin_page_dashboard.php" class="list-group-item list-group-item-action bg-secondary text-white">Dashboard</a>
-            <a href="#" class="list-group-item list-group-item-action" style="background-color: #bebebc">User</a>
+	        <a href="admin_page_dashboard.php" class="list-group-item list-group-item-action" style="background-color: #bebebc">Dashboard</a>
+            <a href="#" class="list-group-item list-group-item-action bg-secondary text-white">User</a>
 	        <a href="admin_profile.php" class="list-group-item list-group-item-action" style="background-color: #bebebc">Profile</a>
             
 	    </div>
@@ -51,7 +51,7 @@
     <hr><br><br>
 
 <div class="add-button">
-	<button type="button" class="btn btn-primary"><a href="User_form.php">Add new User</a></button>
+	<button type="button" class="btn btn-primary"><a href="User_form.php" class="text-white">Add new User</a></button>
 </div>
 <br>
 <div class="table-responsive">  

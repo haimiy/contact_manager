@@ -55,14 +55,10 @@ $count = mysqli_num_rows($result);
     <hr><br>
 
         <!--jaza hapa -->
-      <div class="col-md-6">
+      <div class="col-md-6 mx-auto">
       <button type="button" class="btn btn-primary btn-block">
-        Total User <span class="badge badge-pill badge-light"><?php echo $count; ?></span>
+        Total User <span class="badge badge-pill badge-light "><?php echo $count; ?></span>
       </button>
-
-     <!--  <button type="button" class="btn btn-primary btn-block">
-        Deleted User <span class="badge badge-pill badge-light"><?php echo mysqli_affected_rows($conn); ?></span>
-      </button> -->
       </div>
 
     </div>

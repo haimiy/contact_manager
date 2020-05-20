@@ -2,11 +2,11 @@
 
 include "connection.php";
 
-$sql_gender ="INSERT INTO genders(`gender_name`) VALUES
+$sql_gender ="INSERT INTO genders(`name`) VALUES
 ('Male'),
 ('Female')";
 
-$sql_role ="INSERT INTO roles(`role_name`) VALUES
+$sql_role ="INSERT INTO roles(`name`) VALUES
 ('Admin'),
 ('User')";
 
